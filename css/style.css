@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+
 html{
     font-size: 100%;
 }
 body
 {
+    font-family: "Roboto Mono",sans-serif;   
     margin: 0;
     padding: 0;
 
@@ -147,51 +151,56 @@ nav .profile-container a
 
 
 /*imagen principal---------------------------------------------------------------------------------------------------------------------------------------*/
-main 
+.home-main 
 {
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1r 4fr 1fr;
     height: 100%;
-
-    margin: 0;
 
     background-image: url("../assets/img/cove.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 
-    display: block;
-  
-  
 }
 
-
-main .main-description
+.home-main section 
 {
-    padding-top: 150px;
-    line-height: 20px;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 150px;
+
+    /* text-align: center; */
+}
+
+.home-main .home-main--text
+{
+     font-size: 1.8rem;
     font-weight: 700;
-    font-size: 2rem;
+    letter-spacing:5px ;
 
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align:center;
-    color: aliceblue;
+     font-family: 'Roboto', sans-serif;
+     font-weight: bold;
+        
+    color: azure;
 }
 
-
-
-main .main-botton
+.home-main--botton
 {
-    
-    border-radius:2px;
-    margin-left: calc(43%);
-
-    font-size: 1.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px solid #343434;
+    width:90px;
+    height: 40px;
 
     background-color: #47CFAC;
-    color:  #e4fbff ;
-    
-}
 
+    display: grid;
+    align-items: center;
+    margin: 0 calc(28%);
+}
+.home-main--botton a
+{
+    font-size: 1.2rem;
+    font-weight: 700;
+
+
+}
