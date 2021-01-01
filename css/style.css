@@ -280,4 +280,25 @@ nav .profile-container a
     text-align: center;
 }
 
+.blogs-button
+{
+    border: 1px solid #47cfac;
+    padding:10px 15px;
+
+    font-size:.8rem;
+
+
+}
+
+.blogs-button:hover
+{
+    transition: all .5s;
+    
+    border: 1px solid white; 
+    background-color: #47CFAC; 
+    color: white; 
+
+   
+}
+
 /*FIN DE BLOGS-------------------------------------------------------------------------------------------------------------------------------------------------FIN DE BLOGS*/
