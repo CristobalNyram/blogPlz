@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 
 
+
+
+
+
 html{
     font-size: 100%;
 }
@@ -22,7 +26,12 @@ body
     left: 0;
     right: 0;
 }
+.grid-container
+{
+    max-width: 980px;
 
+    margin:0 auto;
+}
 
 a
 {
@@ -301,4 +310,60 @@ nav .profile-container a
    
 }
 
+
+/* incio de maquetación de varios blogs */
+.blogs-post-container .post-container
+
+{
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+
+
+}
+
+.blogs-post-container .post-container p
+{
+    margin-bottom:35px;
+}
+
+.blogs-post-container .post-container img
+{
+    width: 100%;
+}
+
+
 /*FIN DE BLOGS-------------------------------------------------------------------------------------------------------------------------------------------------FIN DE BLOGS*/
+
+
+
+
+/*INICIO DE FOOTER------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+footer
+{
+    width: 100%;
+    height: 10vh;
+    background-color: #22272d;
+
+    border-top: 5px solid #47CFAC;
+
+    text-align: center;
+    align-items: center;
+}
+footer p
+{
+    color: white;
+    margin-top: 30px;
+
+    font-size: .6rem;
+}
+
+
+
+/*fin de foooter--------------------------------------------------------------------------------------------------------------------*/
+
+
+
